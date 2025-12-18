@@ -1,0 +1,47 @@
+name: Data problem report
+description: Report an issue with names, codes, or boundaries.
+title: "Data: "
+labels:
+  - data
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of issue is it?
+      options:
+        - Province name (PROVINSI)
+        - Province code (KODE_PROV / id)
+        - Missing/extra province (count not 38)
+        - Geometry/boundary issue
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: provinces
+    attributes:
+      label: Affected province(s)
+      description: List province names/codes impacted.
+      placeholder: "Example: Jawa Barat (KODE_PROV 32)"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What’s wrong?
+      description: Be specific about the mismatch.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Provide links or sources supporting the correction.
+      placeholder: "Official source link, credible dataset, announcement, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra context (optional)
+      description: Screenshots, repro steps, or suggested fix approach.
+

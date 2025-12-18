@@ -1,0 +1,38 @@
+{
+  "name": "Indonesia GeoJSON & TopoJSON Maps (38 Provinces)",
+  "description": "Indonesia province boundaries in GeoJSON and TopoJSON format (38 provinces).",
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "GeoJSON/indonesia-38-provinces.geojson",
+      "format": "GeoJSON",
+      "featureCountExpected": 38
+    },
+    {
+      "path": "TopoJSON/indonesia-38-provinces.topo.json",
+      "format": "TopoJSON",
+      "topologyObjectName": "indonesia-38-prov-topo",
+      "geometryCountExpected": 38
+    }
+  ],
+  "schema": {
+    "properties": {
+      "PROVINSI": { "type": "string" },
+      "KODE_PROV": { "type": "string" }
+    },
+    "geojson": {
+      "id": { "type": "string", "notes": "Matches KODE_PROV in this dataset." }
+    }
+  },
+  "license": {
+    "data": "CC-BY-4.0",
+    "code": "MIT"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "url": "https://dev.to/denyherianto/geojson-topojson-maps-of-indonesia-38-provinces-591n"
+    }
+  ]
+}
+

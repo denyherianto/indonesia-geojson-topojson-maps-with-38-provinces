@@ -100,3 +100,11 @@ svg
 
 - Province boundaries and naming can differ across sources and time. If you spot an issue (typo, missing/extra province, mismatched code), please open an issue or PR with references.
 
+## License
+
+- Dataset files are licensed under `DATA_LICENSE.md` (CC BY 4.0).
+- Documentation and any scripts (if added) are licensed under `LICENSE` (MIT).
+
+## Contributing
+
+See `CONTRIBUTING.md`.
