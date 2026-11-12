@@ -958,8 +958,8 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "91-D",
-        "KODE_PROV": "91",
+        "id": "94",
+        "KODE_PROV": "94",
         "PROVINSI": "Papua Tengah"
       },
       "geometry": {
@@ -1201,7 +1201,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "92-A",
+        "id": "92",
         "KODE_PROV": "92",
         "PROVINSI": "Papua Barat"
       },
@@ -2342,8 +2342,8 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "91-C",
-        "KODE_PROV": "91",
+        "id": "93",
+        "KODE_PROV": "93",
         "PROVINSI": "Papua Selatan"
       },
       "geometry": {
@@ -4483,7 +4483,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "91-A",
+        "id": "91",
         "KODE_PROV": "91",
         "PROVINSI": "Papua"
       },
@@ -6071,8 +6071,8 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "92-B",
-        "KODE_PROV": "92",
+        "id": "96",
+        "KODE_PROV": "96",
         "PROVINSI": "Papua Barat Daya"
       },
       "geometry": {
@@ -8572,8 +8572,8 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "91-B",
-        "KODE_PROV": "91",
+        "id": "95",
+        "KODE_PROV": "95",
         "PROVINSI": "Papua Pegunungan"
       },
       "geometry": {
